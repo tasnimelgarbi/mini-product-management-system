@@ -1,4 +1,3 @@
-```
 # Mini Product Management System
 
 ## Overview
@@ -33,4 +32,3 @@ The project is designed to practice building a functional system for managing pr
 - [Tasnim Elgarbi](https://github.com/tasnimelgarbi)  
 - [Mohammed Gamal](https://github.com/mohammed-gamal-abdelmeged)
 
-```
