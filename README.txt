@@ -7,7 +7,7 @@ The project is designed to practice building a functional system for managing pr
 
 ---
 
-## ✨ Features
+## Features
 - Add new products (name, price, quantity, taxes, discount, category).  
 - Update existing products.  
 - Delete a single product or clear all products at once.  
