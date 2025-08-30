@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Products</title>
+</head>
+<body>
+  <div class="Caruds">
+    <div class="head">
+      <h1>Products</h1>
+      <p>product management system</p>
+    </div>
+    <div class="input">
+      <input type="text" placeholder="Product Name" id="name" required />
+      <div class="price">
+        <input type="number" onkeyup="getTotal()" placeholder="Price" id="price" />
+        <input type="number" onkeyup="getTotal()" placeholder="Taxes" id="taxes" />
+        <input type="number" placeholder="Amount" id="amount" />
+        <input type="number" onkeyup="getTotal()" placeholder="Discount" id="discount" />
+        <small id="total"></small>
+      </div>
+      <input type="text" placeholder="Category" id="category" />
+      <button id="submit">Create</button>
+    </div>
+    <div class="output">
+      <div class="searchblock">
+        <input type="text" onkeyup="searchData(this.value)" placeholder="Search" id="search" />
+        <div class="searchbtn">
+          <button onclick="getSearchMood(this.id)" id="searchName">Search By Name</button>
+          <button onclick="getSearchMood(this.id)" id="searchCategory">Search By Category</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="deletAll"></div>
+    <button id="scrollTopBtn">⬆</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Taxes</th>
+          <th>Amount</th>
+          <th>Discount</th>
+          <th>Total</th>
+          <th>Category</th>
+          <th>Update</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <!-- firebase sdk -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
