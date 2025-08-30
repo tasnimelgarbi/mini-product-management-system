@@ -1,33 +1,34 @@
+# Mini Product Management System
 
-Project: Products CRUD (frontend unchanged) + Backend (Node/Express with Firestore Admin)
+## Overview
+A simple web-based Product Management System (CRUD) built with **HTML, CSS, JavaScript (ES Modules)** and **Firebase Firestore**.  
+The project is designed to practice building a functional system for managing products while using a real-time database.
 
-Structure:
-- products_project_with_backend/
-  - index.html          (your original HTML - unchanged)
-  - style.css           (your original CSS - unchanged)
-  - javascrit.js        (your original JS - unchanged)
-  - firebase.js         (exports your firebaseConfig variable - DO NOT MODIFY)
-  - server/
-      - index.js        (Express backend using Firebase Admin SDK)
-      - package.json
-      - (you must place serviceAccountKey.json here)
+---
 
-Important notes:
-1. I kept your frontend files exactly as you provided; variable names and file names were not changed.
-2. To run the backend, you MUST download a Firebase service account key:
-   - Go to Firebase Console -> Project Settings -> Service Accounts -> Generate new private key
-   - Save the downloaded JSON file as server/serviceAccountKey.json
-3. Install server dependencies and run:
-   cd server
-   npm install
-   node index.js
-   The server will run on port 5000 by default.
-4. The backend endpoints:
-   GET  /products
-   POST /products    (body = product object)
-   PUT  /products/:id
-   DELETE /products/:id
-5. If you want the frontend to use the backend endpoints, you will need to edit javascrit.js to replace localStorage calls with fetch() to the backend API. I did NOT modify your frontend file as you requested.
-6. If you prefer, I can also prepare an integrated frontend version that calls the backend (I will NOT change your original files; I'll provide a copy integrated separately).
+## ✨ Features
+- Add new products (name, price, quantity, taxes, discount, category).  
+- Update existing products.  
+- Delete a single product or clear all products at once.  
+- Search products by **name** or **category**.  
+- Auto-calculate total price (with taxes and discount).  
+- Scroll-to-top button for easy navigation.  
 
-If you want the integrated copy or step-by-step help to run the backend and connect the frontend, tell me and I'll do it.
+---
+
+## Technologies Used
+- **HTML5 / CSS3** – User interface  
+- **JavaScript (ES Modules)** – Logic and CRUD operations  
+- **Firebase Firestore** – Database storage & retrieval  
+
+---
+
+## How to Run
+https://productmanagement-system.netlify.app/
+
+---
+
+## Author
+
+- [Tasnim Elgarbi](https://github.com/tasnimelgarbi) – Team Member 
+- [Mohammed Gamal](https://github.com/mohammed-gamal-abdelmeged) – Team Member
