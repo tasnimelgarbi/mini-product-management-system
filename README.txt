@@ -6,7 +6,7 @@ The project is designed to practice building a functional system for managing pr
 
 ---
 
-## Features
+## ✨ Features
 - Add new products (name, price, quantity, taxes, discount, category).  
 - Update existing products.  
 - Delete a single product or clear all products at once.  
@@ -29,5 +29,5 @@ The project is designed to practice building a functional system for managing pr
 ---
 
 ## Author
-- [Tasnim Elgarbi](https://github.com/tasnimelgarbi) – Team Member  
-- [Mohammed Gamal](https://github.com/mohammed-gamal-abdelmeged) – Team Member
+- [Tasnim Elgarbi](https://github.com/tasnimelgarbi)  
+- [Mohammed Gamal](https://github.com/mohammed-gamal-abdelmeged)
